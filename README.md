@@ -1,12 +1,14 @@
-- Once you have unzipped this lab you will need to install the necessary dependencies, from the root of the project folder - execute the following command:
-
+To run the App:
   ```
   npm install
 
   ```
-
-- To start the application you will need to execute:
-
   ```
   vue serve ./src/main.js
   ```
+or
+```
+  npm run start
+ ```
+
+This is simple Vuex App that initializes the first block when app gets started and then you can add some input and hit the button to generate the next block. App will generate the next block with that input, current time, the hash of previous block and will give you the hash of the current block. 
